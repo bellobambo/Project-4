@@ -1,0 +1,73 @@
+body{
+    background-image: linear-gradient(grey , rgb(237, 229, 229));
+}
+
+#header {
+  height: 200px;
+}
+
+
+@keyframes example {
+    from {color: rgb(15, 14, 14);}
+    to {color: rgb(184, 175, 175)}
+  }
+  
+  /* The element to apply the animation to */
+h1{
+   
+    color: rgb(15, 14, 14);
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+  }
+  
+
+#Avaliable-Books {
+  margin-top: -48px;
+  background-color: rgb(201, 198, 195);
+}
+
+ul {
+  list-style: none;
+  line-height: 50px;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  border-left: 3px solid rgb(147, 143, 143);
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+
+.btn {
+  float: right;
+  border: 1px solid grey ;
+  color: gray;
+}
+
+.btn:hover{
+    border: 1px solid grey;
+    color: white;
+}
+
+
+#add {
+  border: 1px solid black;
+}
+
+#but {
+  border: 1px solid black;
+}
+
+input {
+  outline: none;
+  cursor: pointer;
+}
+
+
